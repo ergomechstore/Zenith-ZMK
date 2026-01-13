@@ -1,10 +1,10 @@
 # Copyright (c) 2025 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_TOTEM_DONGLE
+if SHIELD_ZENITH_DONGLE
 
 config ZMK_KEYBOARD_NAME
-    default "TOTEM"
+    default "Zenith"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
@@ -26,17 +26,17 @@ config ZMK_USB
 
 endif
 
-if SHIELD_TOTEM_LEFT
+if SHIELD_ZENITH_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "TOTEM"
+    default "Zenith"
     
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_TOTEM_LEFT || SHIELD_TOTEM_RIGHT
+if SHIELD_ZENITH_LEFT || SHIELD_ZENITH_RIGHT
 
 config ZMK_SPLIT
     default y

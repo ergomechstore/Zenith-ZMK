@@ -1,7 +1,7 @@
 #include <physical_layouts.dtsi>
 
 / {
-    geist_totem_layout: geist_totem_layout {
+    ergomech_zenith_layout: ergomech_zenith_layout {
         compatible = "zmk,physical-layout";
         display-name = "Default";
 
